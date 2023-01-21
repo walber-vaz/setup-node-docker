@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "watch": [
+    "src",
+    "src/index.js"
+  ],
+  "ext": "js, mjs, jsx, ts, tsx, json, node",
+  "ignore": [
+    "*.test.js",
+    ".git",
+    "node_modules/**/node_modules"
+  ]
+}
