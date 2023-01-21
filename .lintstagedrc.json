@@ -1,36 +1,10 @@
 {
   "*.ts": [
-    "npm run eslint 'src/**' --fix",
-    "npm run prettier --check 'src/**'",
+    "npm run lint",
     "npm run test:staged"
   ],
   "*.js": [
-    "npm run eslint 'src/**' --fix",
-    "npm run prettier --check 'src/**'",
+    "npm run lint",
     "npm run test:staged"
-  ],
-  "*.json": [
-    "npm run prettier --check 'src/**'"
-  ],
-  "*.md": [
-    "npm run prettier --check 'src/**'"
-  ],
-  "*.scss": [
-    "npm run prettier --check 'src/**'"
-  ],
-  "*.html": [
-    "npm run prettier --check 'src/**'"
-  ],
-  "*.css": [
-    "npm run prettier --check 'src/**'"
-  ],
-  "*.graphql": [
-    "npm run prettier --check 'src/**'"
-  ],
-  "*.yml": [
-    "npm run prettier --check 'src/**'"
-  ],
-  "*.yaml": [
-    "npm run prettier --check 'src/**'"
   ]
 }

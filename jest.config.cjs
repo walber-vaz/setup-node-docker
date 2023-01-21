@@ -7,5 +7,4 @@ module.exports = {
     '<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}',
     '<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}',
   ],
-  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
 };

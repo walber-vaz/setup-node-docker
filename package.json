@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "husky:prepare": "husky install",
+    "lint": "eslint 'src/**' --ext '.js, .ts' --fix && prettier --check 'src/**'",
+    "lint:prettier": "prettier --check 'src/**'",
     "test": "jest --passWithNoTests",
     "test:watch": "npm run test --watch",
     "test:staged": "npm run test --findRelatedTests",
