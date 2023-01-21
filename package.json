@@ -8,9 +8,9 @@
     "lint": "eslint 'src/**' --ext '.js, .ts' --fix && prettier --check 'src/**'",
     "lint:prettier": "prettier --check 'src/**'",
     "test": "jest --passWithNoTests",
-    "test:watch": "npm run test --watch",
-    "test:staged": "npm run test --findRelatedTests",
-    "test:push": "npm run test --coverage"
+    "test:watch": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests --findRelatedTests",
+    "test:push": "jest --passWithNoTests --coverage"
   },
   "repository": {
     "type": "git",
